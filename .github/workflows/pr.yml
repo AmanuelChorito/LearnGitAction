@@ -2,7 +2,7 @@ name: learn-github-acrions
 on:
   pull-request:
 jobs:
-	check-bats-version:
+  check-bats-version:
 		runs-on: ubuntu-latest
 		steps:
 		- uses: actions/checkout@v4

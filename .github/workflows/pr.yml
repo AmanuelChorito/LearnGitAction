@@ -1,7 +1,7 @@
 ---
 name: learn-github-acrions
 on:
-  pull-request: null
+  pull_request: null
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
